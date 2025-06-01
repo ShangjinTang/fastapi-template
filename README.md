@@ -59,3 +59,11 @@ The FastAPI backend typically runs on `http://127.0.0.1:8000`. To use a differen
     async def root():
         return {"message": "Hello World"}
     ```
+
+## Code Automation
+
+### pre-commit
+
+```bash
+uv run pre-commit install
+```
